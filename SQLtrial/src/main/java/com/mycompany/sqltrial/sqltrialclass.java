@@ -12,7 +12,7 @@ import java.sql.*;
 public class sqltrialclass {
     private static final String url = "jdbc:mysql://localhost/bedrock";
     private static final String user = "root";
-    private static final String password = "ggmufc0719";
+    private static final String password = "";
         
     public static void main(String[] args) {
         System.out.println("Hello world!!");
