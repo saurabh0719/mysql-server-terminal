@@ -8,7 +8,7 @@ public static void main(String[] args) {
     {  
         Class.forName("com.mysql.jdbc.Driver");  
         Connection con=DriverManager.getConnection(  
-        "jdbc:mysql://localhost:3306/bedrock","root","ggmufc0719");  
+        "jdbc:mysql://localhost:3306/bedrock","root","password");  
 
         Statement stmt=con.createStatement();  
         ResultSet rs=stmt.executeQuery("select * from student");  
