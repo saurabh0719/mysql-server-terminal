@@ -1,6 +1,6 @@
 <?php
 //Step1
- $db = mysqli_connect('localhost','root','ggmufc0719','bedrock')
+ $db = mysqli_connect('localhost','root','password','bedrock')
  or die('Error connecting to MySQL server.');
 ?>
 
